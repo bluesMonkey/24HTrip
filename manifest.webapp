@@ -1,10 +1,13 @@
 {
-  "name": "CESI24H",
-  "description": "test",
-  "version": "1.0",
+  "name": "24HCESI",
+  "description": "dev-master",
   "launch_path": "/index.html",
-  "developer": {
-    "name": "TonTonCodeur",
-    "url": "tontoncodeur.com"
+  "icons": {
+    "128": "/img/icon-128.png"
+  },
+  "permissions": {
+    "geolocation": {
+      "description": "Needed to tell the user where they are"
+      }
   }
 }
